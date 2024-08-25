@@ -28,18 +28,24 @@ const Introduction = () => {
 
                     <p className="mx-auto mb-2 text-xl md:text-xl md:mx-0 md:mb-8">
                     Desarrollador Frontend con experiencia en HTML, CSS, JavaScript y React. 
-                    Apasionado por crear interfaces de usuario intuitivas. Hábil en trabajo en equipo
+                    Apasionado por crear interfaces de usuario intuitivas. <br /> Hábil en trabajo en equipo
                     y liderazgo, buscando aportar en proyectos innovadores de desarrollo web.
                     </p>
+<br />
 
-                    <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
+
+                        <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
                         <a href="/portfolio" className="px-3 py-2 my-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50">
                             Ver proyectos
                         </a>
                         <a href="/testimonials"
                             className="px-3 py-2 my-5 transition-all border-2 cursor-pointer text-md w-fit text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary" >
-                            Contacta conmigo
+                            Contactame
                         </a>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
                     </div>
                 </div>
             </div>

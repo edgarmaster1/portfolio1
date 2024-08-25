@@ -26,7 +26,7 @@ const Header = () => {
           <Link href="/">
             <h1 className="my-3 text-4xl font-bold text-center md:text-left">
               Edgar
-              <span className="text-secondary">Angeles Gonzalez</span>
+              <span className="text-secondary">Ángeles González</span>
             </h1>
             
           </Link>

@@ -1,6 +1,11 @@
 import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
 import { FiMousePointer } from "react-icons/fi";
 
+const descriptionPart1 = 'Creación de aplicación web de menú de bebidas desarrollada con React JS consumiendo una API.';
+const descriptionPart2 = 'Aplicación móvil agenda de contactos desarrollada con React Native.';
+const descriptionPart3 = 'Desarrollo de aplicación web progresiva para registro de usuarios utilizando React JS.';
+
+
 export const socialNetworks = [
     {
         id: 1,
@@ -74,16 +79,17 @@ export const dataAboutPage = [
     {
         id: 2,
         title: "Desarrollo web ",
-        description: "-Creación de aplicación web de menú de bebidas desarrollada con React JS consumiendo una API -Aplicación movil agenda de contactos desarrollada con React Native. -Desarrollo de aplicación web progresiva para registro de usuarios utilizando React JS..",
+        description: "Creación de aplicación web de menú de bebidas desarrollada con React JS consumiendo una API. Aplicación movil agenda de contactos desarrollada con React Native. Desarrollo de aplicación web progresiva para registro de usuarios utilizando React JS..",
         date: "2023",
     },
     {
         id: 3,
         title: "Practicante ",
         subtitle: "Infrusch",
-        description: "Desarrollo de aplicación web para registro de servicio utilizado java jsp.",
+        description: "Desarrollo de aplicaciones web para el registro de servicios utilizando Java JSP, combinando sólidas funcionalidades con interfaces visualmente atractivas.",
         date: "2022",
     },
+    
 ]
 
 export const dataCounter = [
@@ -106,32 +112,17 @@ export const serviceData = [
         title: "Desarrollo web",
         description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
     },
-    {
-        icon: <Book />,
-        title: "Copywriting",
-        description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
-    },
-    {
-        icon: <Rocket />,
-        title: "SEO",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
-    },
+    
 ];
 
 export const dataPortfolio = [
-    {
-        id: 1,
-        title: "Registro de usuarios.",
-        image: "/image-1.jpg",
-        urlGithub: "https://github.com/edgarmaster1/PWA-Registro-de-usuarios",
-        
-    },
     {
         id: 2,
         title: "Menú de cócteles.",
         image: "/image-2.jpg",
         urlGithub: "https://github.com/edgarmaster1/menu-de-cocteles-react",
 
+        
     },
     {
         id: 3,
@@ -139,13 +130,22 @@ export const dataPortfolio = [
         image: "/image-3.jpg",
         urlGithub: "https://github.com/edgarmaster1/agenda-de-contactos-react-native",
 
+        
+        
+    },
+    {
+        id: 1,
+        title: "Registro de usuarios.",
+        image: "/image-1.jpg",
+        urlGithub: "https://github.com/edgarmaster1/PWA-Registro-de-usuarios",
+        
     },
 ];
 
 export const dataTestimonials = [
     {
         id: 1,
-        name: "Edgar Angeles Gonzalez",
+        name: "Edgar Ángeles González",
         description: "📍Pachuca de Soto, Hidalgo, México.\n angelesgonzalezedgar@gmail.com ",
         
         imageUrl: "/perfil.png",
