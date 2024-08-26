@@ -120,7 +120,7 @@ export const dataPortfolio = [
         id: 2,
         
         title: "Menú de cócteles.",
-        image: "/image-2.jpg",
+        image: "/imagen2.png",
         urlGithub: "https://github.com/edgarmaster1/menu-de-cocteles-react",
 
         
