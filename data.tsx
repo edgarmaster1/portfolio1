@@ -118,6 +118,7 @@ export const serviceData = [
 export const dataPortfolio = [
     {
         id: 2,
+        
         title: "Menú de cócteles.",
         image: "/image-2.jpg",
         urlGithub: "https://github.com/edgarmaster1/menu-de-cocteles-react",
@@ -136,7 +137,7 @@ export const dataPortfolio = [
     {
         id: 1,
         title: "Registro de usuarios.",
-        image: "/image-1.jpg",
+        image: "/imagen4.png",
         urlGithub: "https://github.com/edgarmaster1/PWA-Registro-de-usuarios",
         
     },

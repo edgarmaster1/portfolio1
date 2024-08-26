@@ -31,8 +31,7 @@ const Introduction = () => {
                     Apasionado por crear interfaces de usuario intuitivas. <br /> Hábil en trabajo en equipo
                     y liderazgo, buscando aportar en proyectos innovadores de desarrollo web.
                     </p>
-<br />
-
+                        <br />
 
                         <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
                         <a href="/portfolio" className="px-3 py-2 my-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50">
