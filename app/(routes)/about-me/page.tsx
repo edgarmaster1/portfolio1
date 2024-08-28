@@ -20,10 +20,10 @@ const AboutMePage = () => {
                 <h1 className="text-2xl leading-tight text-center md:text-left md:text-5xl md:mt-10">
                      Mi{' '}
                     <span className="font-bold text-secondary">
-                        trayectoria profesional.
+                        trayectoria profesional
                     </span>
                     {' '}
-                    como FrontEnd
+                    como FrontEnd.
                 </h1>
 
                 <CounterServices />
